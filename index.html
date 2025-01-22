@@ -651,17 +651,26 @@
         >
           <!-- Left part -->
           <div class="flex flex-col z-10">
-            <h2
-              class="font-mullish text-[28px] leading-10 max-w-[500px] font-semibold text-white"
-            >
-              Manage your company's finances with
-              <img
-                src="images/Razorpay2.png"
-                alt="razorpay"
-                loading="lazy"
-                class="w-[168px] inline-block"
-              /><span class="text-greenLight">Business Banking</span>
-            </h2>
+            <div class="hidden custom2:block">
+              <h2
+                class="font-mullish text-[28px] leading-10 max-w-[500px] font-semibold text-white"
+              >
+                Manage your company's finances with
+                <img
+                  src="images/Razorpay2.png"
+                  alt="razorpay"
+                  loading="lazy"
+                  class="w-[168px] inline-block"
+                /><span class="text-greenLight">Business Banking</span>
+              </h2>
+            </div>
+            <div class="block custom2:hidden">
+              <p
+                class="font-mullish text-[24px] font-semibold text-white w-6/12"
+              >
+                Open and operate fully-functional Current Accounts on RazorpayX
+              </p>
+            </div>
             <ol class="space-y-2 mt-16">
               <li class="flex font-mullish space-x-2">
                 <i data-feather="check" class="text-greenLight"></i>
@@ -684,7 +693,7 @@
                 <p class="text-white">View financial insights at a glance</p>
               </li>
             </ol>
-            <!-- Hyperlinks -->
+            <!-- Hyperlinks on large scree -->
             <div class="hidden custom2:block">
               <div class="flex space-x-4 mt-16">
                 <button
@@ -714,10 +723,11 @@
                 </button>
               </div>
             </div>
+            <!-- Hyperlinks on small screen -->
             <div class="block custom2:hidden">
               <div class="flex space-y-4 mt-16 flex-col">
                 <button
-                  class="text-lightBlue font-bold hover:text-grayText font-mullish transition-all duration-200"
+                  class="text-lightBlue font-bold hover:text-grayText font-mullish transition-all duration-200 text-left"
                 >
                   Know More &#x276F;
                 </button>
