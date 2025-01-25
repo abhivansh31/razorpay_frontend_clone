@@ -1213,14 +1213,14 @@
         src="images/dotted_row.png"
         alt="dotted_row.png.png"
         loading="lazy"
-        class="h-10 relative top-52 left-32"
+        class="h-10 relative top-52 left-32 hidden md:block"
       />
     </div>
     <div class="mt-[90px]">
       <div class="flex flex-col">
-        <div class="w-3/12 mx-auto text-center">
+        <div class="w-5/12 mx-auto text-center">
           <h1
-            class="font-mullish font-extrabold text-2xl text-deepBlueHead mb-3"
+            class="font-mullish font-extrabold text-2xl text-deepBlueHead mb-3 z-10"
           >
             An Experience <br />
             People Love to Talk About
@@ -1235,49 +1235,89 @@
             src="images/leftarrow.png"
             alt="left arrow"
             loading="lazy"
-            class="h-[100px]"
+            class="md:h-[100px] h-[50px]"
           />
-          <img
-            src="images/ceo.png"
-            alt="ceo"
-            loading="lazy"
-            class="h-[300px] rounded-md"
-          />
-          <div class="flex flex-col w-4/12">
+          <div class="justify-around hidden custom1:flex">
             <img
-              src="images/quotes.png"
-              alt="quotes.png"
+              src="images/ceo.png"
+              alt="ceo"
               loading="lazy"
-              class="h-10 w-12"
+              class="h-[300px] rounded-md"
             />
-            <h3 class="font-mullish text-3xl font-extralight xl:order-1">
-              Readymade Closed Wallet Solution For Quick Refunds
-            </h3>
-            <a
-              href="www.learnmore.com"
-              class="text-grayText italic underline xl:order-1"
-              ><i><u>Learn More</u></i></a
-            >
-            <p class="font-mullish font-extrabold text-2xl -order-1 xl:order-1">
-              Lorem Ipsum
-            </p>
-            <p class="font-mullish font-medium xl:order-1">
-              CEO,XYZ Engineering Company
-            </p>
+            <div class="flex flex-col w-4/12">
+              <img
+                src="images/quotes.png"
+                alt="quotes.png"
+                loading="lazy"
+                class="h-10 w-12"
+              />
+              <h3 class="font-mullish text-3xl font-extralight xl:order-1">
+                Readymade Closed Wallet Solution For Quick Refunds
+              </h3>
+              <a
+                href="www.learnmore.com"
+                class="text-grayText italic underline xl:order-1"
+                ><i><u>Learn More</u></i></a
+              >
+              <p
+                class="font-mullish font-extrabold text-2xl -order-1 xl:order-1"
+              >
+                Lorem Ipsum
+              </p>
+              <p class="font-mullish font-medium xl:order-1">
+                CEO,XYZ Engineering Company
+              </p>
+              <img
+                src="images/construction.png"
+                alt="construction.png"
+                loading="lazy"
+                width="80px"
+                height="40px"
+                class="xl:order-1"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col custom1:hidden w-4/12">
             <img
-              src="images/construction.png"
-              alt="construction.png"
+              src="images/ceo.png"
+              alt="ceo"
               loading="lazy"
-              width="80px"
-              height="40px"
-              class="xl:order-1"
+              class="max-w-[100%] h-auto rounded-md"
             />
+            <div class="flex flex-col w-full mx-auto text-center pt-4">
+              <p class="font-mullish font-extrabold text-2xl pb-2">
+                Lorem Ipsum
+              </p>
+              <p class="font-mullish font-medium pb-2">
+                CEO,XYZ Engineering Company
+              </p>
+              <img
+                src="images/construction.png"
+                alt="construction.png"
+                loading="lazy"
+                width="80px"
+                height="40px"
+                class="mx-auto"
+              />
+              <img
+                src="images/quotes.png"
+                alt="quotes.png"
+                loading="lazy"
+                class="h-10 w-12"
+              />
+              <h3 class="font-mullish text-3xl font-extralight">
+                Readymade Closed Wallet Solution For Quick Refunds
+              </h3>
+              <a href="www.learnmore.com" class="text-grayText italic underline"
+                ><i><u>Learn More</u></i></a
+              >
+            </div>
           </div>
           <img
             src="images/rightarrow.png"
             alt="rightarrow.png"
             loading="lazy"
-            class="h-[100px]"
+            class="md:h-[100px] h-[50px]"
           />
         </div>
         <img
@@ -1290,7 +1330,9 @@
     </div>
     <!-- Sign Up Page -->
     <div class="bg-cover bg-[url(images/complexdesign.png)] mt-[50px]">
-      <div class="flex justify-between items-center w-11/12 p-[80px] mx-auto">
+      <div
+        class="flex justify-between items-center w-11/12 p-[80px] mx-auto pb-[120px]"
+      >
         <!-- Left Part -->
         <div class="flex flex-col gap-5 mt-12 max-w-[600px]">
           <h3 class="font-mullish font-bold text-2xl text-white">
@@ -1332,12 +1374,14 @@
           src="images/computer.png"
           alt="computer.png"
           loading="lazy"
-          class="h-56"
+          class="h-56 hidden custom1:block"
         />
       </div>
     </div>
     <!-- About Section -->
-    <div class="flex w-10/12 p-16 mx-auto mt-16 justify-between">
+    <div
+      class="flex xl:w-10/12 w-full xl:p-16 p-4 mx-auto mt-16 justify-between"
+    >
       <!-- Part 1 -->
       <div class="flex flex-col mx-auto w-[250px] mr-[100px]">
         <img
