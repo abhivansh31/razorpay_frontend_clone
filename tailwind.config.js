@@ -24,6 +24,7 @@ module.exports = {
         custom1: "1100px",
         custom2: "850px",
         custom3: "1125px",
+        custom4: "1450px",
       }
     },
   },
